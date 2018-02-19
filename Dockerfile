@@ -30,5 +30,5 @@ RUN git clone https://github.com/tlindener/xgboost --recursive && \
 	cd xgboost && \
 	chmod +x build.sh && \
 	./build.sh
-RUN cd jvm-packages && \ 
+RUN cd xgboost/jvm-packages && \ 
 	mvn package
